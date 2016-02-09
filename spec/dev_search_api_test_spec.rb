@@ -10,7 +10,7 @@ describe DevSearchApiTest do
   end
 
   it 'Should list all docs (paginated)' do
-    response = DevSearchApiTest.get('/docs')
+    response = Helpers.get('/docs')
 
     expect(response.code).to eq('200')
     json_response = nil
@@ -18,7 +18,7 @@ describe DevSearchApiTest do
   end
 
   it 'Should get one doc by document ID' do
-    response = DevSearchApiTest.get('/docs/cbb0487905be6ef8')
+    response = Helpers.get('/docs/cbb0487905be6ef8')
 
     expect(response.code).to eq('200')
     json_response = nil
@@ -28,7 +28,7 @@ describe DevSearchApiTest do
   end
 
   it 'Should list all docs filtered by company name (paginated)' do
-    response = DevSearchApiTest.get('/docs?c=HG%20DATA')
+    response = Helpers.get('/docs?c=HG%20DATA')
 
     expect(response.code).to eq('200')
     json_response = nil

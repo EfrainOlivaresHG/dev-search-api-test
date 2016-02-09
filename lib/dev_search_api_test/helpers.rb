@@ -3,7 +3,7 @@ require 'net/http'
 
 # Reuse get, post functions to keep tests DRY
 #
-module DevSearchApiTest
+module Helpers
   @port = '9000'
   @ip = '192.168.99.100'
 

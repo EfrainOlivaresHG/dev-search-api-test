@@ -4,7 +4,6 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 ## Lucid Chart
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/091151ae-18ca-40fa-bcf3-21528def7f69" id="izq14FoFJ.-E"></iframe></div>
-
 TODO: Delete this and the text above, and describe your gem
 
 ## Installation
